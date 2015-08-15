@@ -1,7 +1,7 @@
 %define name phpvirtualbox-5.0
-%define version 5.0.1
+%define version 5.0.2
 %define release 1
-%define rpmver   5.0.1
+%define rpmver   5.0.2
 Summary: smserver rpm to install phpvirtualbox
 Name: %{name}
 Version: %{version}
@@ -21,6 +21,9 @@ AutoReqProv: no
 smserver rpm to install phpvirtualbox
 
 %changelog
+* Sat Aug 15 2015 stephane de labrusse <stephdl@de-labrusse.fr> 5.0-2
+- upstream upgrade 5.0-2
+
 * Thu Aug 06 2015 stephane de labrusse <stephdl@de-labrusse.fr> 5.0-1
 - upstream upgrade 5.0-1
 
